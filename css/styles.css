@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Ponomar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ponomar&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kings&family=Ponomar&family=Sixtyfour+Convergence&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -82,18 +86,37 @@ body {
 
 /* DID word */
 
-.didDLetter {
+.didDLetter, .didDTwoLetter {
+  font-size: 40px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: "Sixtyfour Convergence", serif;
 }
 
 .didILetter {
+  font-size: 60px;
+  font-weight: bold;
+  color: rgb(14, 9, 27);
+  text-decoration: line-through;
+  text-transform: uppercase;
+  font-family: "Kings", serif;
 }
 
 .didDTwoLetter {
+ 
 }
 
 /* THE word */
 
 .theTLetter {
+  font-size: 80px;
+  font-weight: 700;
+  color: rgb(121, 214, 40);
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Ponomar", serif;
 }
 
 .theHLetter {
